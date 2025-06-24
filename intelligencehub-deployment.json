@@ -6,6 +6,10 @@
     "build" : "2025.6.24.320",
     "stage" : "Alpha"
   },
+  "license" : {
+    "signature" : "kxSD7MUjD9xi83llmP1xiAxP3sidqk38Dl8kKFeyHZ/RDIPST59lytFmpumY+FOPP/EPcDN6cGK9T9kkhosbVXVIWZoI2wHinMJKIbOeCC1Sa3v6/SMEpT27FELkKwbKeApeNGVgAc+nw1q+czkpuFg2NVUReaD/ddh/LEw46xO0McnTPL1bmoEdEBW4bUutact8l3WT9BoU1bnMkZqA0kQuLrTBeOPZn87Vuq5ATSYm5X06+4NndBhAQifkNxdeDQopSMSyc0ZDFRd1ySeu7JMdlh25Vx1HpuJX6n4uBFMoI09XgMA+lXhOass1SGPBTtRnlQqdUCznfImtXa84wA==",
+    "license" : "{\"licenseVersion\":1,\"licenseNumber\":\"5412456618\",\"companyName\":\"Automation\",\"startDate\":\"2023-09-06\",\"endDate\":\"2024-08-31\",\"entitlements\":[\"product_hb_enterprise\"],\"productVersion\":\"\"}"
+  },
   "project" : {
     "version" : 11,
     "connections" : [ {
@@ -7632,7 +7636,7 @@
         },
         "config" : {
           "type" : ".TriggerEvent",
-          "enabled" : true,
+          "enabled" : false,
           "reference" : "{{Connection.AzureIoTHub.Test}}"
         }
       } ],
@@ -7676,7 +7680,7 @@
         },
         "config" : {
           "type" : ".TriggerFlow",
-          "enabled" : true,
+          "enabled" : false,
           "flowEvaluation" : {
             "type" : "Exception",
             "interval" : {
@@ -7774,7 +7778,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -7783,7 +7787,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -7846,7 +7850,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -7855,7 +7859,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -7906,7 +7910,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -7915,7 +7919,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -7982,7 +7986,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -7991,7 +7995,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -8074,7 +8078,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -8083,7 +8087,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -8134,7 +8138,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -8143,7 +8147,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -8273,7 +8277,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -8282,7 +8286,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -8328,7 +8332,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -8337,7 +8341,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -8390,7 +8394,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -8399,7 +8403,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -8482,7 +8486,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -8491,7 +8495,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -8573,7 +8577,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -8582,7 +8586,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -8628,7 +8632,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -8637,7 +8641,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -8708,7 +8712,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -8717,7 +8721,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -8800,7 +8804,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -8809,7 +8813,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -8873,7 +8877,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -8882,7 +8886,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -8956,7 +8960,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -8965,7 +8969,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9012,7 +9016,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9021,7 +9025,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9051,7 +9055,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9060,7 +9064,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9090,7 +9094,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9099,7 +9103,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9138,7 +9142,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9147,7 +9151,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9210,7 +9214,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9219,7 +9223,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9289,7 +9293,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9298,7 +9302,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9404,7 +9408,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9413,7 +9417,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9442,7 +9446,7 @@
         "name" : "CSVIndex",
         "config" : {
           "type" : ".TriggerFlow",
-          "enabled" : true,
+          "enabled" : false,
           "flowEvaluation" : {
             "type" : "Exception",
             "interval" : {
@@ -9466,7 +9470,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9475,12 +9479,23 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
         }
       } ],
+      "errorHandler" : {
+        "type" : "default"
+      }
+    }, {
+      "name" : "ConditionTests",
+      "groupAs" : "/Conditions",
+      "tags" : [ ],
+      "inputStages" : [ ],
+      "stages" : [ ],
+      "trackActivity" : false,
+      "triggers" : [ ],
       "errorHandler" : {
         "type" : "default"
       }
@@ -9526,7 +9541,7 @@
         },
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9541,7 +9556,7 @@
         },
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9556,7 +9571,7 @@
         },
         "config" : {
           "type" : ".TriggerPolled",
-          "enabled" : true,
+          "enabled" : false,
           "interval" : {
             "duration" : 10,
             "units" : "Seconds"
@@ -9598,7 +9613,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9607,7 +9622,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9652,7 +9667,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9661,7 +9676,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9696,7 +9711,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9705,7 +9720,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9713,6 +9728,204 @@
       } ],
       "errorHandler" : {
         "type" : "default"
+      }
+    }, {
+      "name" : "ErrorHandler",
+      "groupAs" : "/ErrorHandler",
+      "tags" : [ ],
+      "inputStages" : [ "Transform_1" ],
+      "stages" : [ {
+        "name" : "WriteNew",
+        "display" : {
+          "position" : {
+            "x" : 536,
+            "y" : -30
+          }
+        },
+        "config" : {
+          "type" : ".DynamicWriteConfig",
+          "failureOutputs" : [ ],
+          "connectionReference" : "{{Connection.MQTT}}",
+          "qualifier" : {
+            "topic" : "MYERROR",
+            "qos" : 0,
+            "namedRoot" : false,
+            "retained" : false,
+            "breakupArrays" : false
+          },
+          "qualifierExpression" : "",
+          "writeReturn" : "ignore"
+        },
+        "outputs" : [ ]
+      }, {
+        "name" : "Transform",
+        "display" : {
+          "position" : {
+            "x" : 211,
+            "y" : -259
+          }
+        },
+        "config" : {
+          "type" : ".TransformConfig",
+          "transformExpression" : "stage.setValue(event.metadata.pipelineError);"
+        },
+        "outputs" : [ "WriteNew" ]
+      }, {
+        "name" : "Return",
+        "display" : {
+          "position" : {
+            "x" : 436,
+            "y" : 175
+          }
+        },
+        "config" : {
+          "type" : ".ReturnConfig"
+        },
+        "outputs" : [ ]
+      }, {
+        "name" : "Transform_1",
+        "display" : {
+          "position" : {
+            "x" : 33,
+            "y" : 241
+          }
+        },
+        "config" : {
+          "type" : ".TransformConfig",
+          "transformExpression" : "stage.setValue(\"test123\");"
+        },
+        "outputs" : [ "Return" ]
+      } ],
+      "trackActivity" : true,
+      "triggers" : [ {
+        "name" : "CallableTrigger",
+        "display" : {
+          "position" : {
+            "x" : -442,
+            "y" : -4
+          }
+        },
+        "config" : {
+          "type" : ".TriggerCallable",
+          "enabled" : false,
+          "parameters" : {
+            "type" : "inline",
+            "model" : {
+              "name" : "params",
+              "tags" : [ ],
+              "attributes" : [ {
+                "attributeType" : "Internal",
+                "name" : "test123",
+                "nullable" : false,
+                "required" : false,
+                "array" : false,
+                "defaultValue" : 1,
+                "internalType" : "Any"
+              }, {
+                "attributeType" : "Internal",
+                "name" : "test321",
+                "nullable" : false,
+                "required" : false,
+                "array" : false,
+                "internalType" : "Any"
+              } ]
+            }
+          }
+        }
+      } ],
+      "errorHandler" : {
+        "type" : "default"
+      }
+    }, {
+      "name" : "ErrorHandlerTest",
+      "groupAs" : "/ErrorHandler",
+      "tags" : [ ],
+      "inputStages" : [ "WriteNew" ],
+      "stages" : [ {
+        "name" : "Error",
+        "display" : {
+          "position" : {
+            "x" : 320,
+            "y" : -162
+          }
+        },
+        "config" : {
+          "type" : ".ErrorConfig",
+          "errorMessage" : "Error"
+        },
+        "outputs" : [ ]
+      }, {
+        "name" : "Transform",
+        "display" : {
+          "position" : {
+            "x" : 337,
+            "y" : -279
+          }
+        },
+        "config" : {
+          "type" : ".TransformConfig",
+          "transformExpression" : "f"
+        },
+        "outputs" : [ ]
+      }, {
+        "name" : "WriteNew",
+        "display" : {
+          "position" : {
+            "x" : 354,
+            "y" : -14
+          }
+        },
+        "config" : {
+          "type" : ".DynamicWriteConfig",
+          "failureOutputs" : [ ],
+          "connectionReference" : "{{Connection.MQTT}}",
+          "qualifier" : {
+            "topic" : "myval",
+            "qos" : 0,
+            "namedRoot" : false,
+            "retained" : false,
+            "breakupArrays" : false
+          },
+          "qualifierExpression" : "",
+          "writeReturn" : "completion"
+        },
+        "outputs" : [ ]
+      } ],
+      "trackActivity" : false,
+      "triggers" : [ {
+        "name" : "FlowTrigger",
+        "display" : {
+          "position" : {
+            "x" : -501,
+            "y" : -43
+          }
+        },
+        "config" : {
+          "type" : ".TriggerFlow",
+          "enabled" : false,
+          "flowEvaluation" : {
+            "type" : "Polled",
+            "interval" : {
+              "duration" : 1,
+              "units" : "Seconds"
+            },
+            "mode" : "Always",
+            "expression" : "",
+            "delay" : {
+              "duration" : 0,
+              "units" : "Seconds"
+            }
+          },
+          "inReferences" : [ "{{Connection.SpringApp.ComplexData}}" ],
+          "publishMode" : "All",
+          "template" : {
+            "type" : "Off"
+          }
+        }
+      } ],
+      "errorHandler" : {
+        "type" : "external",
+        "reference" : "{{Pipeline.ErrorHandler}}"
       }
     }, {
       "name" : "FileFormats",
@@ -9795,7 +10008,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9804,7 +10017,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9839,7 +10052,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9848,7 +10061,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9883,7 +10096,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9892,7 +10105,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9945,7 +10158,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -9954,7 +10167,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10007,7 +10220,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10016,7 +10229,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10066,7 +10279,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10075,7 +10288,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10116,7 +10329,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10125,7 +10338,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10166,7 +10379,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10175,7 +10388,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10228,7 +10441,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10237,7 +10450,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10290,7 +10503,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10299,7 +10512,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10340,7 +10553,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10349,7 +10562,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10389,7 +10602,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10398,7 +10611,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10455,7 +10668,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10464,7 +10677,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10517,7 +10730,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10526,7 +10739,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10579,7 +10792,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10588,7 +10801,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10637,7 +10850,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10646,7 +10859,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10699,7 +10912,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10708,7 +10921,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10761,7 +10974,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10770,7 +10983,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10812,7 +11025,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10821,7 +11034,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10850,7 +11063,7 @@
         "name" : "PostgresIndexEnabled",
         "config" : {
           "type" : ".TriggerFlow",
-          "enabled" : true,
+          "enabled" : false,
           "flowEvaluation" : {
             "type" : "Exception",
             "interval" : {
@@ -10874,7 +11087,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10883,7 +11096,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10917,7 +11130,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10926,7 +11139,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10960,7 +11173,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -10969,7 +11182,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -11004,7 +11217,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -11013,7 +11226,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -11047,7 +11260,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -11056,7 +11269,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -11091,7 +11304,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -11100,7 +11313,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -11135,7 +11348,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -11144,7 +11357,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -11178,7 +11391,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -11187,7 +11400,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -11223,7 +11436,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -11232,7 +11445,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -11267,7 +11480,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -11276,7 +11489,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -11310,7 +11523,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -11319,7 +11532,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -11358,7 +11571,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -11367,7 +11580,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -11393,7 +11606,7 @@
         "name" : "ApiTrigger",
         "config" : {
           "type" : ".TriggerApi",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -11402,7 +11615,7 @@
         "name" : "CallableTrigger",
         "config" : {
           "type" : ".TriggerCallable",
-          "enabled" : true,
+          "enabled" : false,
           "parameters" : {
             "type" : "EmptyParameters"
           }
@@ -11423,15 +11636,55 @@
       "name" : "functions",
       "function" : "// This editor allows you to write JavaScript that\r\n// can be used across across all expressions.\r\n\r\n// Use console.log to output debug messages\r\nvar x = 2;       // Global scope\r\n\r\nfunction incrementX(){\r\n    x = x + 1;\r\n    return x;\r\n}\r\n\r\nfunction getX(){\r\n    return x;\r\n}\r\n\r\nfunction externalLib(){\r\n    var jsonata = require(\"jsonata\");\r\n    var data = {\r\n    example: [\r\n        {value: 1},\r\n        {value: 2},\r\n        {value: 3}\r\n    ]\r\n    };\r\n    var expression = jsonata(\"$sum(example.value)\");\r\n    return expression.evaluate(data);  // returns 24\r\n}\r\n\r\nfunction test() {\r\n\r\n    const payload = {\"filter\": \"inputName\", \"time\": 1234}; \r\n    console.log(payload);\r\n    return payload;\r\n\r\n}\r\n\r\nfunction myKey2() {\r\n    let key = \"Name2\";\r\n  return key;\r\n}\r\n\r\n\r\nfunction myKey() {\r\n        var jsonata = require(\"jsonata\");\r\n\r\n    var data = {\r\n    example: [\r\n        {value: 1},\r\n        {value: 2},\r\n        {value: 3}\r\n    ]\r\n    };\r\n    var expression = jsonata(\"$sum(example.value)\");\r\n    let key = \"Name\";\r\n  return key;\r\n}\r\n\r\nfunction square(x) {\r\n    return x * x + 1;\r\n}\r\n\r\nfunction isPrime(num) {\r\n    for(let i = 2, s = Math.sqrt(num); i <= s; i++)\r\n        if(num % i === 0) return false;\r\n    return num > 1;\r\n}\r\n\r\nfunction calcPrimes(num) {\r\n    let primes = [];\r\n    for (let i = 2; i <= num; ++i) {\r\n        if(isPrime(i))\r\n            primes.push(i);\r\n    }\r\n    return primes;\r\n}\r\n"
     } ],
-    "namespace" : [ ]
+    "namespace" : [ {
+      "id" : "7ad980e8-bd55-418f-b83a-644b5f8d1507",
+      "name" : "testcallpipe",
+      "reference" : {
+        "type" : "Pipeline",
+        "name" : "ErrorHandler",
+        "params" : { },
+        "path" : ""
+      }
+    } ]
   },
   "network" : {
     "version" : 0,
-    "groups" : [ ],
-    "hubs" : [ ]
+    "groups" : [ {
+      "name" : "test",
+      "token" : "F7dCxZwwy3o5kogk2evc5L5tUjdFwoZi"
+    } ],
+    "hubs" : [ {
+      "name" : "hb_remote_client",
+      "description" : "",
+      "clientId" : "5454d864-02cf-4aed-ada7-0a2b436a09fb",
+      "networkGroup" : "test"
+    } ]
   },
   "accessControl" : {
-    "apiKeys" : [ ],
+    "apiKeys" : [ {
+      "description" : "For API automation",
+      "friendlyName" : "u1748031",
+      "expiration" : 0,
+      "version" : 0,
+      "algorithm" : "SHA-256",
+      "user" : "u1748031779539",
+      "hash" : "7U9sWlnfpLEVBwwnDike4R6NVJm+0JtE6q+ZFwPjy3U="
+    }, {
+      "description" : "For API automation",
+      "friendlyName" : "u1748031",
+      "expiration" : 0,
+      "version" : 0,
+      "algorithm" : "SHA-256",
+      "user" : "u1748031937893",
+      "hash" : "2uJe0OCPqA1QNrOqAZiTsz8DpNbM47L4vNNmDfhyVTQ="
+    }, {
+      "friendlyName" : "test",
+      "expiration" : 1782259199000,
+      "version" : 1,
+      "algorithm" : "SHA-256",
+      "user" : "administrator",
+      "hash" : "SX31dqd3d5dROPjC734sr3qLvxMckYg1qJGu3eDWfoo="
+    } ],
     "version" : 0,
     "roles" : [ {
       "name" : "admin",
@@ -11450,34 +11703,90 @@
         "resources" : [ "connection", "instance", "pipeline" ],
         "actions" : [ "*" ]
       } ]
+    }, {
+      "name" : "tagged",
+      "policyVersion" : 1,
+      "claims" : [ {
+        "name" : "test",
+        "resources" : [ "*" ],
+        "actions" : [ "*" ],
+        "scope" : {
+          "contains" : {
+            "tags" : [ "tag1" ]
+          }
+        }
+      } ]
+    }, {
+      "name" : "tagged2",
+      "policyVersion" : 1,
+      "claims" : [ {
+        "name" : "WeatherTag",
+        "resources" : [ "broker", "connection", "condition", "function", "instance", "log", "model", "pipeline", "network" ],
+        "actions" : [ "*" ],
+        "scope" : {
+          "contains" : {
+            "tags" : [ "tag1" ]
+          }
+        }
+      } ]
     } ],
     "users" : [ {
       "name" : "administrator",
       "credentials" : {
-        "salt" : "wBJg7es4iiOTavrwV29twQ==",
-        "hashedPassword" : "VPzdyxQp+N9IYEiDVmCUogUvu9ktRTDlIYvjxUMUfIxeCoNW7qE2yWJM/Yg7Qybv7C+JpbmW2Yd1hUjwbjrI3A=="
+        "salt" : "SD8Jg877fN+EHfQ2nqb84A==",
+        "hashedPassword" : "j81lGHU0ofi8ghVoMGno6I2MYJ7HqDoqTwXTyzRoXeRbdXZdAtySs1F6s0d+V8qcupPe0n6aZY5jbqVQVwDPHw=="
       },
       "policyVersion" : 1,
       "roles" : [ "admin" ],
       "claims" : [ ]
+    }, {
+      "name" : "u1748031779539",
+      "credentials" : {
+        "salt" : "kwU+PD8fVrhYKnwFt42Pdw==",
+        "hashedPassword" : "waD06kwX+WQElUAa4m2FW/GUXF8TvHN6oLx2I2c/nzWP4YhKIwYSAg+dS9qc8qVe26QvlttCzNVi6EPTvhKkWg=="
+      },
+      "policyVersion" : 1,
+      "roles" : [ ],
+      "claims" : [ {
+        "resources" : [ "*" ],
+        "actions" : [ "*" ]
+      } ]
+    }, {
+      "name" : "u1748031937893",
+      "credentials" : {
+        "salt" : "e66IEzI/4DoUnUr6dlywgw==",
+        "hashedPassword" : "79F25Qd5DdT5doDpQUR2VkjhpTHW4+/JIWjPDkUvT1M6w/CStn1oV5n95crQ/eM7gmfqFpGlvsAs9wBi1QzR1A=="
+      },
+      "policyVersion" : 1,
+      "roles" : [ ],
+      "claims" : [ {
+        "resources" : [ "*" ],
+        "actions" : [ "*" ]
+      } ]
     } ]
   },
   "system" : {
     "version" : 0,
-    "variables" : [ ],
+    "variables" : [ {
+      "name" : "instance_name",
+      "value" : "hubinstance123"
+    } ],
     "secrets" : [ {
       "type" : "Encrypted",
       "name" : "PAT",
       "value" : {
-        "keyId" : "9ZAcFfeQIf1sRrGR8sk1Iw==",
-        "iv" : "WvjqbaLw0Z8lXvfzPcxg1g==",
-        "ciphertext" : "j2NxeBZtqEu7/In4t1W9GBRgOG7i+jcz8XjuCuXKEjDakf4H5DcMSDXbVJhDBLLCONvwR7+iu/YuVg4N8mWjib8LqXqjiiCNPpws0Q+6rVOjpcIVysQQcjmG2M96ohhy"
+        "keyId" : "Ku3YIu+SRVA0xkwuTR6GUw==",
+        "iv" : "hh9RMrErgtmCrSqUfSGMIQ==",
+        "ciphertext" : "3q7mCXEkvPTV/LRi77vr1guEvXO9xEHnTH7D3OQGQzMs5dShDzsUzz5dmglCgA2e6D0xaT0vI7vy35V+c54B/9pw3N42WfXpyQezAfWQi9XBuEvnJuz2nMoyV9ZV917t"
       }
     } ],
     "certificates" : [ ],
     "settings" : {
       "version" : 0,
-      "directories" : { },
+      "directories" : {
+        "appData" : "/usr/local/highbyte/appData/",
+        "storeForwardData" : "/usr/local/highbyte/storefiles/"
+      },
       "api" : {
         "sessionTimeout" : {
           "duration" : 8,
@@ -11488,12 +11797,12 @@
         "scheme" : "http",
         "schemeCertificate" : "ssl-certificate-private-key",
         "port" : 45245,
-        "centralConfig" : false,
+        "centralConfig" : true,
         "autoSaveIntervalSeconds" : 60,
-        "backupCopies" : 50
+        "backupCopies" : 10
       },
       "hbMqttBroker" : {
-        "enabled" : false,
+        "enabled" : true,
         "allowAnonymous" : true,
         "endpoints" : [ {
           "hostname" : "0.0.0.0",
@@ -11510,26 +11819,26 @@
         } ]
       },
       "restDataServer" : {
-        "enabled" : false,
+        "enabled" : true,
         "hostname" : "0.0.0.0",
         "port" : 8885,
         "useHttps" : false,
         "schemeCertificate" : "",
         "allowAnonymous" : false,
-        "authenticationModes" : [ "API_KEY" ],
-        "mcpServerEnabled" : false,
+        "authenticationModes" : [ "API_KEY", "LOGIN" ],
+        "mcpServerEnabled" : true,
         "mcpServerPort" : 45345
       },
       "log" : {
-        "debugLogging" : "NONE",
-        "fileSizeMB" : 100,
+        "debugLogging" : "ALL",
+        "fileSizeMB" : 102,
         "logAuditEvents" : false
       },
       "redundancy" : {
         "backup" : {
           "enabled" : false,
           "primary" : {
-            "uri" : "",
+            "uri" : "http://hb-remote-client:45246",
             "pingIntervalSeconds" : 10,
             "pingAttempts" : 1
           }
